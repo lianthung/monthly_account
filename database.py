@@ -4,7 +4,7 @@ from sqlalchemy.orm import scoped_session,sessionmaker
 from passlib.hash import sha256_crypt
 
 
-db_connection_string = "mysql+pymysql://acsk3llfsqc6ng908fk3:pscale_pw_NYXbNN1rUSIJ5YukeSwqnWDdbxoHXbSO1Dy2G2adhdT@gcp.connect.psdb.cloud/account_book?charset=utf8mb4"
+db_connection_string = "mysql+pymysql://acsk3llfsqc6ng908fk3:password@gcp.connect.psdb.cloud/account_book?charset=utf8mb4"
 #mysql+pymysql://username:password@localhost/databasename
 
 ##db_connection_string = os.environ['DB_CONNECTION_STRING']
